@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portflio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+   
+    
+    
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+
+        #a4portfolio {
+            display: flex;
+            overflow: hidden;
+            width: 1127px;
+            height: auto;
+            margin: 10em;
+            margin-top: 1em;
+            margin-bottom: 1em;
+            border: 1px solid #ffffff;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+
+
+        #contactleft {
+            word-wrap: break-word;
+            padding: 4%;
+            padding-top: 50px;
+            width: 38%;
+            background-color: #bfdce4;
+        }
+
+        #contactside h3{
+            margin-top: 40px;
+            margin-left: 40px;
+        }
+
+        #photobox {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+
+        #dphoto {
+            width: 350px;
+            height: 350px;
+            border-radius: 175px;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+        h3{
+            margin-top: 60px;
+            color:rgb(31, 31, 31);
+            font-size: x-large;
+        }
+        .hr{
+            margin-top: -20px;
+            margin-right: 5%;
+          border: 1px solid rgb(31, 31, 31);
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+
+        #techskill, #softskill{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+        }
+
+        #contactright{
+            width: 62%;
+            height: auto;
+            padding: 2%;
+            padding-top: 100px;
+        }
+        h4{
+            font-size: 20px;
+        }
+
+        #ogName{
+            text-transform: capitalize;
+        }
+
+        #titleof{
+            margin-top: -20px;
+            color: #767474;
+        }
+
+        #button{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        #downloadPDF{
+            width: 500px;
+            height: 50px;
+            margin: 2em;
+            border: 1px solid gray;
+            border-radius: 5px;
+        }
+        #heading{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="heading"><h1>YOUR PORTFOLIO</h1></div>
+
+    <div id="a4portfolio">
+
+        <div id="contactleft">
+            <div id="photobox"><div id="dphoto"></div></div>
+            <h3 >CONTACT</h3>
+            <hr class="hr">
+            <div id="contactinfo"></div>
+            <h3>EDUCATION</h3>
+            <hr class="hr">
+            <div id="education"></div>
+            <h3>TECHNICAL SKILLS</h3>
+            <hr class="hr">
+            <div id="techskill"></div>
+            <h3>SOFT SKILLS</h3>
+            <hr class="hr">
+            <div id="softskill"></div>
+        </div>
+        <div id="contactright">
+            <div id="intro"></div>
+            <div id="projects"></div>
+
+        </div>
+    </div>
+    
+</body>
+
+</html>
+<script src="portfolio.js"></script>
